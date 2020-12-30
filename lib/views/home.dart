@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
       home: Scaffold(
         body: _children[_screenNumber],
         bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.transparent,
           buttonBackgroundColor: Colors.teal.shade300,
           color: Colors.teal,
           animationDuration: Duration(milliseconds: 390),
