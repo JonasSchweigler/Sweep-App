@@ -21,17 +21,6 @@ class _CartScreenState extends State<CartScreen> {
                 padding: const EdgeInsets.only(left: 6.0),
                 child: Row(
                   children: <Widget>[
-                    Container(
-                      width: 100.0,
-                      height: 90.0,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(order.food.imageUrl),
-                          fit: BoxFit.cover,
-                        ),
-                        borderRadius: BorderRadius.circular(15.0),
-                      ),
-                    ),
                     Expanded(
                       child: Container(
                         margin: EdgeInsets.all(12.0),

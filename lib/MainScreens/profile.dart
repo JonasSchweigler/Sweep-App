@@ -1,7 +1,7 @@
 import 'package:shareweb/StartScreens/welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:shareweb/views/create_ad.dart';
+import 'package:shareweb/views/add_provider.dart';
 import 'package:shareweb/StartScreens/welcome.dart';
 
 class ProfilePage extends StatefulWidget {

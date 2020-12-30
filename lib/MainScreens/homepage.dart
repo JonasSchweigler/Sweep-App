@@ -2,8 +2,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shareweb/utilities/data/data.dart';
+import 'package:shareweb/utilities/data/database.dart';
 import 'package:shareweb/utilities/models/restaurant.dart';
+import 'package:shareweb/views/add_provider.dart';
 import 'package:shareweb/views/cart_screen.dart';
+import 'package:shareweb/views/home.dart';
+import 'package:shareweb/views/professional_requirements.dart';
 import 'package:shareweb/views/restaurant_screen.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:shareweb/utilities/services/location.dart';
@@ -12,15 +16,19 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 Gastronomie restaurant = Gastronomie();
 Adress _adress = Adress();
+DataBase dataBase = DataBase();
 
 class HomePagePage extends StatefulWidget {
+  final String userID;
+  HomePagePage({
+    this.userID,
+  });
   @override
   _HomePagePageState createState() => _HomePagePageState();
 }
 
 class _HomePagePageState extends State<HomePagePage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
-
   double longitude;
   double latitude;
 
@@ -39,6 +47,7 @@ class _HomePagePageState extends State<HomePagePage> {
     super.initState();
     try {
       getPosition();
+      dataBase.userData(widget.userID);
     } catch (e) {
       print(e);
     }
@@ -229,25 +238,57 @@ class _HomePagePageState extends State<HomePagePage> {
                     });
                   }),
             ),
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 5,
+                top: 8,
+                bottom: 8,
+                right: 100,
+              ),
+              child: FlatButton(
+                child: Text(
+                  'Become Professional',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                  ),
+                ),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Requirements()));
+                },
+              ),
+            ),
           ],
         ),
       ),
-      body: StreamBuilder<QuerySnapshot>(
-        stream: FirebaseFirestore.instance.collection("Providers").snapshots(),
-        builder: (context, snapshot) {
-          if (snapshot.hasData &&
-              !snapshot.hasError &&
-              snapshot.connectionState != ConnectionState.waiting) {
-            return _buildList(snapshot.data);
-          } else {
-            return Center(
-              child: SpinKitDualRing(
-                color: Colors.white,
-                size: 100.0,
-              ),
-            );
-          }
-        },
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage(
+              'assets/images/app_background.jpg',
+            ),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: StreamBuilder<QuerySnapshot>(
+          stream:
+              FirebaseFirestore.instance.collection("Providers").snapshots(),
+          builder: (context, snapshot) {
+            if (snapshot.hasData &&
+                !snapshot.hasError &&
+                snapshot.connectionState != ConnectionState.waiting) {
+              return _buildList(snapshot.data);
+            } else {
+              return Center(
+                child: SpinKitDualRing(
+                  color: Colors.white,
+                  size: 100.0,
+                ),
+              );
+            }
+          },
+        ),
       ),
     );
   }

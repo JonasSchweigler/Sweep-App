@@ -1,7 +1,12 @@
+import 'package:shareweb/MainScreens/homepage.dart';
 import 'package:shareweb/utilities/models/food.dart';
 import 'package:shareweb/utilities/models/order.dart';
 import 'package:shareweb/utilities/models/restaurant.dart';
 import 'package:shareweb/utilities/models/user.dart';
+import 'package:shareweb/utilities/data/database.dart';
+
+DataBase dataBase = DataBase();
+HomePagePage homePagePage = HomePagePage();
 
 // Food
 final _burrito =
@@ -67,8 +72,8 @@ final List<Gastronomie> restaurants = [
 ];
 
 // User
-final currentUser = User(
-  name: 'Nils & Jonas',
+final currentUser = UserData(
+  userID: homePagePage.userID,
   orders: [
     Order(
       date: 'Nov 10, 2019',

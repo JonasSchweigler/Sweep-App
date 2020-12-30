@@ -1,8 +1,13 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:shareweb/MainScreens/homepage.dart';
+import 'package:shareweb/utilities/data/data.dart';
 import 'package:shareweb/views/home.dart';
 import 'package:shareweb/utilities/data/database.dart';
+import 'package:shareweb/views/productdetails.dart';
 
 DataBase dataBase = DataBase();
+HomePagePage homePagePage = HomePagePage();
 
 class CreateAd extends StatefulWidget {
   @override
@@ -13,12 +18,13 @@ class _CreateAdState extends State<CreateAd> {
   TextEditingController _nameController = TextEditingController();
   TextEditingController _adressController = TextEditingController();
   TextEditingController _providerController = TextEditingController();
+  String userID = homePagePage.userID;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(55.0),
+        preferredSize: Size.fromHeight(40.0),
         child: AppBar(
           centerTitle: true,
           backgroundColor: Colors.black12,
@@ -62,18 +68,10 @@ class _CreateAdState extends State<CreateAd> {
                         ),
                       ),
                     ),
-              Card(
+              FlatButton(
+                child: Text('upload Image'),
                 color: Colors.green,
-                elevation: 6.0,
-                child: FlatButton(
-                  child: Text(
-                    'Upload Image',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  ),
-                  onPressed: () => dataBase.uploadImage(),
-                ),
+                onPressed: () => dataBase.uploadImage(),
               ),
               Container(
                 margin: EdgeInsets.only(
@@ -115,48 +113,40 @@ class _CreateAdState extends State<CreateAd> {
                       ),
                     ),
                     Padding(
-                      child: Card(
+                      child: FlatButton(
+                        child: Text('new'),
                         color: Colors.red,
-                        elevation: 6,
-                        child: FlatButton(
-                          minWidth: 99,
-                          child: Text(
-                            'New',
-                            style: TextStyle(
-                              fontSize: 18.0,
-                            ),
-                          ),
-                          onPressed: () async {
-                            // dataBaseService.newAd(
-                            //   'adress',
-                            //   'providerType',
-                            //   'imageURL',
-                            //   'providerName',
-                            //   null,
-                            // );
-                            try {
-                              await dataBase.addProvider(
-                                adress: _adressController.text,
-                                name: _nameController.text,
-                                provider: _providerController.text,
-                              );
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (_) => HomePage(),
-                                ),
-                              );
-                            } catch (e) {
-                              print(e);
-                            }
-                          },
-                        ),
+                        onPressed: () async {
+                          // dataBaseService.newAd(
+                          //   'adress',
+                          //   'providerType',
+                          //   'imageURL',
+                          //   'providerName',
+                          //   null,
+                          // );
+                          try {
+                            await dataBase.addProvider(
+                              adress: _adressController.text,
+                              name: _nameController.text,
+                              provider: _providerController.text,
+                              userID: userID,
+                            );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => ProductDetails(),
+                              ),
+                            );
+                          } catch (e) {
+                            print(e);
+                          }
+                        },
                       ),
                       padding: EdgeInsets.all(8),
-                    )
+                    ),
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),

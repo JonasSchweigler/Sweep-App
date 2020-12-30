@@ -1,13 +1,13 @@
 import 'package:shareweb/utilities/models/order.dart';
 
-class User {
-  final String name;
+class UserData {
+  final String userID;
   final List<Order> orders;
   final List<Order> cart;
 
-  User({
-    this.name,
+  UserData({
     this.orders,
     this.cart,
+    this.userID,
   });
 }

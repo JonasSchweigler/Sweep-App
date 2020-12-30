@@ -7,6 +7,25 @@ class SearchPage extends StatefulWidget {
 }
 
 class _SearchPageState extends State<SearchPage> {
+  TextEditingController _searchController = TextEditingController();
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _searchController.addListener(_onSearchChanged);
+  }
+
+  void _onSearchChanged() {
+    print(_searchController.text);
+  }
+
+  // void dispose() {
+  //   _searchController.removeListener(_onSearchChanged);
+  //   _searchController.dispose();
+  //   super.dispose();
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,6 +49,7 @@ class _SearchPageState extends State<SearchPage> {
         child: Padding(
           padding: EdgeInsets.all(20.0),
           child: TextField(
+            controller: _searchController,
             decoration: InputDecoration(
               contentPadding: EdgeInsets.symmetric(vertical: 15.0),
               fillColor: Colors.white,
@@ -45,7 +65,7 @@ class _SearchPageState extends State<SearchPage> {
                   color: Theme.of(context).primaryColor,
                 ),
               ),
-              hintText: 'Anbieter suchen',
+              hintText: 'Search Provider',
               prefixIcon: Icon(
                 Icons.search,
                 size: 30.0,

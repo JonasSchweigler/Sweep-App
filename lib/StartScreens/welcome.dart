@@ -126,21 +126,30 @@ class _WelcomePageState extends State<WelcomePage> {
   }
 
   Widget _underTitle() {
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        SizedBox(width: 20.0, height: 100.0),
-        Text(
-          "Get",
-          style: TextStyle(fontSize: 30.0),
-        ),
-        SizedBox(width: 20.0, height: 100.0),
-        RotateAnimatedTextKit(
+    return Container(
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          SizedBox(
+            height: 80.0,
+          ),
+          // Text(
+          //   "Get",
+          //   style: TextStyle(fontSize: 30.0),
+          // ),
+          SizedBox(
+            height: 60.0,
+          ),
+          RotateAnimatedTextKit(
             text: ["Happy", "Relaxed", "Cheep", "Just Sweep"],
             textStyle: TextStyle(fontSize: 30.0, fontFamily: "Horizon"),
-            textAlign: TextAlign.start),
-      ],
+            textAlign: TextAlign.start,
+            // duration: Duration(
+            //   days: 100,
+            // ),
+          ),
+        ],
+      ),
     );
   }
 

@@ -28,11 +28,14 @@ class _RecentOrdersState extends State<RecentOrders> {
               children: <Widget>[
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15.0),
-                  child: Image(
-                    height: 100.0,
-                    width: 100.0,
-                    image: AssetImage(order.food.imageUrl),
-                    fit: BoxFit.cover,
+                  child: Hero(
+                    tag: 'assets/images/Sweep.png',
+                    child: Image(
+                      height: 100.0,
+                      width: 100.0,
+                      image: AssetImage('assets/images/Sweep.png'),
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
                 Expanded(
