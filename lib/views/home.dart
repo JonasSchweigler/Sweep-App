@@ -5,6 +5,7 @@ import 'package:shareweb/MainScreens/homepage.dart';
 import 'package:shareweb/MainScreens/screen.dart';
 import 'package:shareweb/MainScreens/profile.dart';
 import 'package:shareweb/MainScreens/bonus.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -27,32 +28,25 @@ class _HomePageState extends State<HomePage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: _children[_screenNumber],
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          items: [
-            new BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              title: Text('Home'),
+        bottomNavigationBar: CurvedNavigationBar(
+          backgroundColor: Colors.blue,
+          buttonBackgroundColor: Colors.teal.shade300,
+          color: Colors.teal,
+          animationDuration: Duration(milliseconds: 390),
+          height: 55,
+          items: <Widget>[
+            Icon(
+              Icons.home,
+              size: 30,
             ),
-            new BottomNavigationBarItem(
-              icon: Icon(Icons.search),
-              title: Text('Search'),
-            ),
-            new BottomNavigationBarItem(
-              title: Text('Bonus'),
-              icon: Icon(CupertinoIcons.flame_fill),
-            ),
-            new BottomNavigationBarItem(
-              icon: Icon(Icons.star),
-              title: Text('Favourites'),
-            ),
-            new BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              title: Text('Profile'),
-            ),
+            Icon(CupertinoIcons.flame_fill, size: 30),
+            Icon(Icons.star, size: 30),
+            Icon(
+              Icons.person,
+              size: 30,
+            )
           ],
-          currentIndex: _screenNumber,
-          selectedItemColor: Colors.teal,
+          index: _screenNumber,
           onTap: (i) => setState(() {
             _screenNumber = i;
           }),
@@ -61,3 +55,33 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+// BottomNavigationBar(
+// type: BottomNavigationBarType.fixed,
+// items: [
+// new BottomNavigationBarItem(
+// icon: Icon(Icons.home),
+// title: Text('Home'),
+// ),
+// new BottomNavigationBarItem(
+// icon: Icon(Icons.search),
+// title: Text('Search'),
+// ),
+// new BottomNavigationBarItem(
+// title: Text('Bonus'),
+// icon: Icon(CupertinoIcons.flame_fill),
+// ),
+// new BottomNavigationBarItem(
+// icon: Icon(Icons.star),
+// title: Text('Favourites'),
+// ),
+// new BottomNavigationBarItem(
+// icon: Icon(Icons.person),
+// title: Text('Profile'),
+// ),
+// ],
+// currentIndex: _screenNumber,
+// selectedItemColor: Colors.teal,
+// onTap: (i) => setState(() {
+// _screenNumber = i;
+// }),
