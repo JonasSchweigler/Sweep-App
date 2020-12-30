@@ -1,0 +1,1091 @@
+Index: .flutter-plugins
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># This is a generated file; do not edit or check into version control.\r\ncloud_firestore=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/\r\ncloud_firestore_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/\r\nfirebase_auth=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1/\r\nfirebase_auth_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3/\r\nfirebase_core=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3/\r\nfirebase_core_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/\r\nfirebase_database=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0/\r\nfirebase_storage=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0/\r\nfirebase_storage_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1/\r\nflutter_plugin_android_lifecycle=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/\r\ngeocoding=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5/\r\ngeolocator=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13/\r\nimage_picker=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17/\r\npath_provider=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24/\r\npath_provider_linux=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/\r\npath_provider_macos=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6/\r\npath_provider_windows=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3/\r\npermission_handler=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1/\r\nurl_launcher=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/\r\nurl_launcher_linux=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/\r\nurl_launcher_macos=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/\r\nurl_launcher_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/\r\nurl_launcher_windows=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .flutter-plugins	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ .flutter-plugins	(date 1609143566379)
+@@ -1,24 +1,24 @@
+ # This is a generated file; do not edit or check into version control.
+-cloud_firestore=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/
+-cloud_firestore_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/
+-firebase_auth=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1/
+-firebase_auth_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3/
+-firebase_core=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3/
+-firebase_core_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/
+-firebase_database=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0/
+-firebase_storage=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0/
+-firebase_storage_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1/
+-flutter_plugin_android_lifecycle=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/
+-geocoding=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5/
+-geolocator=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13/
+-image_picker=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17/
+-path_provider=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24/
+-path_provider_linux=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+-path_provider_macos=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6/
+-path_provider_windows=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3/
+-permission_handler=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1/
+-url_launcher=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/
+-url_launcher_linux=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/
+-url_launcher_macos=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/
+-url_launcher_web=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/
+-url_launcher_windows=/Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/
++cloud_firestore=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-0.14.4\\
++cloud_firestore_web=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore_web-0.2.1+2\\
++firebase_auth=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-0.18.4+1\\
++firebase_auth_web=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth_web-0.3.2+3\\
++firebase_core=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.5.3\\
++firebase_core_web=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-0.2.1+1\\
++firebase_database=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_database-4.4.0\\
++firebase_storage=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_storage-5.2.0\\
++firebase_storage_web=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_storage_web-0.1.1+1\\
++flutter_plugin_android_lifecycle=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_plugin_android_lifecycle-1.0.11\\
++geocoding=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\geocoding-1.0.5\\
++geolocator=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\geolocator-6.1.13\\
++image_picker=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\image_picker-0.6.7+17\\
++path_provider=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.24\\
++path_provider_linux=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
++path_provider_macos=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+6\\
++path_provider_windows=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_windows-0.0.4+3\\
++permission_handler=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler-5.0.1+1\\
++url_launcher=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.7.10\\
++url_launcher_linux=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_linux-0.0.1+4\\
++url_launcher_macos=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+9\\
++url_launcher_web=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.5+1\\
++url_launcher_windows=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_windows-0.0.1+3\\
+Index: android/local.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>sdk.dir=/Users/jonasschweigler/Library/Android/sdk\r\nflutter.buildMode=debug\r\nflutter.versionCode=1\r\nflutter.sdk=/Users/jonasschweigler/Developer/flutter\r\nflutter.versionName=1.0.0
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- android/local.properties	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ android/local.properties	(date 1609143527473)
+@@ -1,5 +1,5 @@
+-sdk.dir=/Users/jonasschweigler/Library/Android/sdk
++sdk.dir=C:\\Users\\YOGA 520\\AppData\\Local\\Android\\sdk
+ flutter.buildMode=debug
+ flutter.versionCode=1
+-flutter.sdk=/Users/jonasschweigler/Developer/flutter
++flutter.sdk=C:\\flutter
+ flutter.versionName=1.0.0
+\ No newline at end of file
+Index: .idea/libraries/Dart_SDK.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Dart SDK\">\r\n    <CLASSES>\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/async\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/cli\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/collection\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/convert\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/core\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/developer\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/ffi\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/html\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/indexed_db\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/io\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/isolate\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/js\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/js_util\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/math\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/mirrors\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/svg\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/typed_data\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/web_audio\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/web_gl\" />\r\n      <root url=\"file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/web_sql\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES />\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Dart_SDK.xml	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ .idea/libraries/Dart_SDK.xml	(date 1609143496906)
+@@ -1,26 +1,27 @@
+ <component name="libraryTable">
+   <library name="Dart SDK">
+     <CLASSES>
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/async" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/cli" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/collection" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/convert" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/core" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/developer" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/ffi" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/html" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/indexed_db" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/io" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/isolate" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/js" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/js_util" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/math" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/mirrors" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/svg" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/typed_data" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/web_audio" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/web_gl" />
+-      <root url="file://$USER_HOME$/Developer/flutter/bin/cache/dart-sdk/lib/web_sql" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/async" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/cli" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/collection" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/convert" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/core" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/developer" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/ffi" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/html" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/indexed_db" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/io" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/isolate" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/js" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/js_util" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/math" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/mirrors" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/svg" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/typed_data" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/wasm" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/web_audio" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/web_gl" />
++      <root url="file://C:/flutter/bin/cache/dart-sdk/lib/web_sql" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES />
+Index: .packages
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Generated by pub on 2020-12-28 09:14:17.822868.\r\nanimated_text_kit:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-3.1.0/lib/\r\nasync:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3/lib/\r\nboolean_selector:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3/lib/\r\ncharacters:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.5/lib/\r\ncharcode:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.3/lib/\r\nclock:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.3/lib/\r\ncloud_firestore:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/lib/\r\ncloud_firestore_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1/lib/\r\ncloud_firestore_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/lib/\r\ncollection:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.5/lib/\r\nconvert:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1/lib/\r\ncrypto:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5/lib/\r\ncupertino_icons:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0/lib/\r\nfake_async:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.3/lib/\r\nffi:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/ffi-0.1.3/lib/\r\nfile:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/file-5.2.1/lib/\r\nfirebase_auth:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1/lib/\r\nfirebase_auth_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-2.1.4/lib/\r\nfirebase_auth_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3/lib/\r\nfirebase_core:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3/lib/\r\nfirebase_core_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0/lib/\r\nfirebase_core_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/lib/\r\nfirebase_database:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0/lib/\r\nfirebase_storage:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0/lib/\r\nfirebase_storage_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-1.0.2/lib/\r\nfirebase_storage_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1/lib/\r\nflutter:file:///Users/jonasschweigler/Developer/flutter/packages/flutter/lib/\r\nflutter_plugin_android_lifecycle:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/lib/\r\nflutter_spinkit:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1/lib/\r\nflutter_test:file:///Users/jonasschweigler/Developer/flutter/packages/flutter_test/lib/\r\nflutter_web_plugins:file:///Users/jonasschweigler/Developer/flutter/packages/flutter_web_plugins/lib/\r\ngeocoding:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5/lib/\r\ngeocoding_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-1.0.1+1/lib/\r\ngeolocator:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13/lib/\r\ngeolocator_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8/lib/\r\ngoogle_fonts:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.1/lib/\r\nhttp:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http-0.12.2/lib/\r\nhttp_parser:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4/lib/\r\nimage_picker:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17/lib/\r\nimage_picker_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-1.1.1/lib/\r\nintl:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1/lib/\r\njs:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/js-0.6.3-nullsafety.3/lib/\r\nmatcher:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.3/lib/\r\nmeta:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.6/lib/\r\npath:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.3/lib/\r\npath_provider:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24/lib/\r\npath_provider_linux:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/lib/\r\npath_provider_macos:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6/lib/\r\npath_provider_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4/lib/\r\npath_provider_windows:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3/lib/\r\npedantic:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2/lib/\r\npermission_handler:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1/lib/\r\npermission_handler_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1/lib/\r\nplatform:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1/lib/\r\nplugin_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3/lib/\r\nprocess:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/process-3.0.13/lib/\r\nquiver:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5/lib/\r\nsky_engine:file:///Users/jonasschweigler/Developer/flutter/bin/cache/pkg/sky_engine/lib/\r\nsource_span:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.4/lib/\r\nstack_trace:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.6/lib/\r\nstream_channel:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.3/lib/\r\nstring_scanner:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.3/lib/\r\nterm_glyph:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.3/lib/\r\ntest_api:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.6/lib/\r\ntyped_data:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.5/lib/\r\nurl_launcher:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/lib/\r\nurl_launcher_linux:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/lib/\r\nurl_launcher_macos:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/lib/\r\nurl_launcher_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9/lib/\r\nurl_launcher_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/lib/\r\nurl_launcher_windows:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/lib/\r\nvector_math:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.5/lib/\r\nwin32:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/win32-1.7.4/lib/\r\nxdg_directories:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2/lib/\r\nshareweb:lib/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .packages	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ .packages	(date 1609143566071)
+@@ -1,76 +1,76 @@
+-# Generated by pub on 2020-12-28 09:14:17.822868.
+-animated_text_kit:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-3.1.0/lib/
+-async:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3/lib/
+-boolean_selector:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3/lib/
+-characters:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.5/lib/
+-charcode:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.3/lib/
+-clock:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.3/lib/
+-cloud_firestore:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/lib/
+-cloud_firestore_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1/lib/
+-cloud_firestore_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/lib/
+-collection:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.5/lib/
+-convert:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1/lib/
+-crypto:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5/lib/
+-cupertino_icons:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0/lib/
+-fake_async:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.3/lib/
+-ffi:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/ffi-0.1.3/lib/
+-file:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/file-5.2.1/lib/
+-firebase_auth:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1/lib/
+-firebase_auth_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-2.1.4/lib/
+-firebase_auth_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3/lib/
+-firebase_core:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3/lib/
+-firebase_core_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0/lib/
+-firebase_core_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/lib/
+-firebase_database:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0/lib/
+-firebase_storage:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0/lib/
+-firebase_storage_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-1.0.2/lib/
+-firebase_storage_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1/lib/
+-flutter:file:///Users/jonasschweigler/Developer/flutter/packages/flutter/lib/
+-flutter_plugin_android_lifecycle:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/lib/
+-flutter_spinkit:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1/lib/
+-flutter_test:file:///Users/jonasschweigler/Developer/flutter/packages/flutter_test/lib/
+-flutter_web_plugins:file:///Users/jonasschweigler/Developer/flutter/packages/flutter_web_plugins/lib/
+-geocoding:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5/lib/
+-geocoding_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-1.0.1+1/lib/
+-geolocator:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13/lib/
+-geolocator_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8/lib/
+-google_fonts:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.1/lib/
+-http:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http-0.12.2/lib/
+-http_parser:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4/lib/
+-image_picker:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17/lib/
+-image_picker_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-1.1.1/lib/
+-intl:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1/lib/
+-js:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/js-0.6.3-nullsafety.3/lib/
+-matcher:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.3/lib/
+-meta:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.6/lib/
+-path:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.3/lib/
+-path_provider:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24/lib/
+-path_provider_linux:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/lib/
+-path_provider_macos:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6/lib/
+-path_provider_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4/lib/
+-path_provider_windows:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3/lib/
+-pedantic:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2/lib/
+-permission_handler:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1/lib/
+-permission_handler_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1/lib/
+-platform:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1/lib/
+-plugin_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3/lib/
+-process:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/process-3.0.13/lib/
+-quiver:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5/lib/
+-sky_engine:file:///Users/jonasschweigler/Developer/flutter/bin/cache/pkg/sky_engine/lib/
+-source_span:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.4/lib/
+-stack_trace:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.6/lib/
+-stream_channel:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.3/lib/
+-string_scanner:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.3/lib/
+-term_glyph:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.3/lib/
+-test_api:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.6/lib/
+-typed_data:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.5/lib/
+-url_launcher:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/lib/
+-url_launcher_linux:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/lib/
+-url_launcher_macos:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/lib/
+-url_launcher_platform_interface:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9/lib/
+-url_launcher_web:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/lib/
+-url_launcher_windows:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/lib/
+-vector_math:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.5/lib/
+-win32:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/win32-1.7.4/lib/
+-xdg_directories:file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2/lib/
++# Generated by pub on 2020-12-28 13:49:26.046542.
++animated_text_kit:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-3.1.0/lib/
++async:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.1/lib/
++boolean_selector:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.1/lib/
++characters:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3/lib/
++charcode:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.1/lib/
++clock:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.1/lib/
++cloud_firestore:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/lib/
++cloud_firestore_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1/lib/
++cloud_firestore_web:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/lib/
++collection:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3/lib/
++convert:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1/lib/
++crypto:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5/lib/
++cupertino_icons:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0/lib/
++fake_async:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.1/lib/
++ffi:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-0.1.3/lib/
++file:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/file-5.2.1/lib/
++firebase_auth:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1/lib/
++firebase_auth_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-2.1.4/lib/
++firebase_auth_web:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3/lib/
++firebase_core:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3/lib/
++firebase_core_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0/lib/
++firebase_core_web:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/lib/
++firebase_database:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0/lib/
++firebase_storage:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0/lib/
++firebase_storage_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-1.0.2/lib/
++firebase_storage_web:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1/lib/
++flutter:file:///C:/flutter/packages/flutter/lib/
++flutter_plugin_android_lifecycle:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/lib/
++flutter_spinkit:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1/lib/
++flutter_test:file:///C:/flutter/packages/flutter_test/lib/
++flutter_web_plugins:file:///C:/flutter/packages/flutter_web_plugins/lib/
++geocoding:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5/lib/
++geocoding_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-1.0.1+1/lib/
++geolocator:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13/lib/
++geolocator_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8/lib/
++google_fonts:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.1/lib/
++http:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2/lib/
++http_parser:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4/lib/
++image_picker:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17/lib/
++image_picker_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-1.1.1/lib/
++intl:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1/lib/
++js:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.2/lib/
++matcher:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.1/lib/
++meta:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.3/lib/
++path:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.1/lib/
++path_provider:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24/lib/
++path_provider_linux:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/lib/
++path_provider_macos:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6/lib/
++path_provider_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4/lib/
++path_provider_windows:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3/lib/
++pedantic:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2/lib/
++permission_handler:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1/lib/
++permission_handler_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1/lib/
++platform:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1/lib/
++plugin_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3/lib/
++process:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/process-3.0.13/lib/
++quiver:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5/lib/
++sky_engine:file:///C:/flutter/bin/cache/pkg/sky_engine/lib/
++source_span:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.2/lib/
++stack_trace:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.1/lib/
++stream_channel:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.1/lib/
++string_scanner:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.1/lib/
++term_glyph:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.1/lib/
++test_api:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.2/lib/
++typed_data:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.3/lib/
++url_launcher:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/lib/
++url_launcher_linux:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/lib/
++url_launcher_macos:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/lib/
++url_launcher_platform_interface:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9/lib/
++url_launcher_web:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/lib/
++url_launcher_windows:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/lib/
++vector_math:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3/lib/
++win32:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/win32-1.7.4/lib/
++xdg_directories:file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2/lib/
+ shareweb:lib/
+Index: .dart_tool/package_config.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"configVersion\": 2,\r\n  \"packages\": [\r\n    {\r\n      \"name\": \"animated_text_kit\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-3.1.0\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.10\"\r\n    },\r\n    {\r\n      \"name\": \"async\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"boolean_selector\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"characters\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"charcode\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"clock\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"cloud_firestore\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"cloud_firestore_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"cloud_firestore_web\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"collection\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"convert\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"1.17\"\r\n    },\r\n    {\r\n      \"name\": \"crypto\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.3\"\r\n    },\r\n    {\r\n      \"name\": \"cupertino_icons\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"fake_async\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"ffi\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/ffi-0.1.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.6\"\r\n    },\r\n    {\r\n      \"name\": \"file\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/file-5.2.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.2\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_auth\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_auth_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-2.1.4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_auth_web\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_core\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_core_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_core_web\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_database\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_storage\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_storage_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-1.0.2\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"firebase_storage_web\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"flutter\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/Developer/flutter/packages/flutter\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"flutter_plugin_android_lifecycle\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"flutter_spinkit\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.5\"\r\n    },\r\n    {\r\n      \"name\": \"flutter_test\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/Developer/flutter/packages/flutter_test\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"flutter_web_plugins\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/Developer/flutter/packages/flutter_web_plugins\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"geocoding\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"geocoding_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-1.0.1+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"geolocator\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"geolocator_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"google_fonts\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.3\"\r\n    },\r\n    {\r\n      \"name\": \"http\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http-0.12.2\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.4\"\r\n    },\r\n    {\r\n      \"name\": \"http_parser\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.3\"\r\n    },\r\n    {\r\n      \"name\": \"image_picker\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"image_picker_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-1.1.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.5\"\r\n    },\r\n    {\r\n      \"name\": \"intl\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.5\"\r\n    },\r\n    {\r\n      \"name\": \"js\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/js-0.6.3-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"matcher\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"meta\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.6\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"path\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"path_provider\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"path_provider_linux\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"path_provider_macos\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"path_provider_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"path_provider_windows\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"pedantic\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"permission_handler\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"permission_handler_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.6\"\r\n    },\r\n    {\r\n      \"name\": \"platform\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"1.24\"\r\n    },\r\n    {\r\n      \"name\": \"plugin_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"process\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/process-3.0.13\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"quiver\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.0\"\r\n    },\r\n    {\r\n      \"name\": \"sky_engine\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/Developer/flutter/bin/cache/pkg/sky_engine\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"source_span\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"stack_trace\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.6\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"stream_channel\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"string_scanner\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"term_glyph\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"test_api\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.6\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"typed_data\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"url_launcher\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"url_launcher_linux\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"url_launcher_macos\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"url_launcher_platform_interface\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"url_launcher_web\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.2\"\r\n    },\r\n    {\r\n      \"name\": \"url_launcher_windows\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.1\"\r\n    },\r\n    {\r\n      \"name\": \"vector_math\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.5\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.12\"\r\n    },\r\n    {\r\n      \"name\": \"win32\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/win32-1.7.4\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    },\r\n    {\r\n      \"name\": \"xdg_directories\",\r\n      \"rootUri\": \"file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.3\"\r\n    },\r\n    {\r\n      \"name\": \"shareweb\",\r\n      \"rootUri\": \"../\",\r\n      \"packageUri\": \"lib/\",\r\n      \"languageVersion\": \"2.7\"\r\n    }\r\n  ],\r\n  \"generated\": \"2020-12-28T08:14:17.849248Z\",\r\n  \"generator\": \"pub\",\r\n  \"generatorVersion\": \"2.12.0-179.0.dev\"\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .dart_tool/package_config.json	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ .dart_tool/package_config.json	(date 1609143566108)
+@@ -3,445 +3,445 @@
+   "packages": [
+     {
+       "name": "animated_text_kit",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-3.1.0",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-3.1.0",
+       "packageUri": "lib/",
+       "languageVersion": "2.10"
+     },
+     {
+       "name": "async",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "boolean_selector",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "characters",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "charcode",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "clock",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "cloud_firestore",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "cloud_firestore_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "cloud_firestore_web",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "collection",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "convert",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
+       "packageUri": "lib/",
+       "languageVersion": "1.17"
+     },
+     {
+       "name": "crypto",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5",
+       "packageUri": "lib/",
+       "languageVersion": "2.3"
+     },
+     {
+       "name": "cupertino_icons",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "fake_async",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "ffi",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/ffi-0.1.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-0.1.3",
+       "packageUri": "lib/",
+       "languageVersion": "2.6"
+     },
+     {
+       "name": "file",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
+       "packageUri": "lib/",
+       "languageVersion": "2.2"
+     },
+     {
+       "name": "firebase_auth",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "firebase_auth_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-2.1.4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-2.1.4",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "firebase_auth_web",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "firebase_core",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "firebase_core_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "firebase_core_web",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "firebase_database",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "firebase_storage",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "firebase_storage_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-1.0.2",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-1.0.2",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "firebase_storage_web",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "flutter",
+-      "rootUri": "file:///Users/jonasschweigler/Developer/flutter/packages/flutter",
++      "rootUri": "file:///C:/flutter/packages/flutter",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "flutter_plugin_android_lifecycle",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "flutter_spinkit",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.5"
+     },
+     {
+       "name": "flutter_test",
+-      "rootUri": "file:///Users/jonasschweigler/Developer/flutter/packages/flutter_test",
++      "rootUri": "file:///C:/flutter/packages/flutter_test",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.2"
+     },
+     {
+       "name": "flutter_web_plugins",
+-      "rootUri": "file:///Users/jonasschweigler/Developer/flutter/packages/flutter_web_plugins",
++      "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.0"
+     },
+     {
+       "name": "geocoding",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "geocoding_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-1.0.1+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding_platform_interface-1.0.1+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "geolocator",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "geolocator_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "google_fonts",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.1",
+       "packageUri": "lib/",
+       "languageVersion": "2.3"
+     },
+     {
+       "name": "http",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
+       "packageUri": "lib/",
+       "languageVersion": "2.4"
+     },
+     {
+       "name": "http_parser",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
+       "packageUri": "lib/",
+       "languageVersion": "2.3"
+     },
+     {
+       "name": "image_picker",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "image_picker_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-1.1.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-1.1.1",
+       "packageUri": "lib/",
+       "languageVersion": "2.5"
+     },
+     {
+       "name": "intl",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
+       "packageUri": "lib/",
+       "languageVersion": "2.5"
+     },
+     {
+       "name": "js",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/js-0.6.3-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.2",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.0"
+     },
+     {
+       "name": "matcher",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "meta",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.6",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.3",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "path",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "path_provider",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "path_provider_linux",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "path_provider_macos",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "path_provider_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "path_provider_windows",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "pedantic",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "permission_handler",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "permission_handler_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1",
+       "packageUri": "lib/",
+       "languageVersion": "2.6"
+     },
+     {
+       "name": "platform",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
+       "packageUri": "lib/",
+       "languageVersion": "1.24"
+     },
+     {
+       "name": "plugin_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "process",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "quiver",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5",
+       "packageUri": "lib/",
+       "languageVersion": "2.0"
+     },
+     {
+       "name": "sky_engine",
+-      "rootUri": "file:///Users/jonasschweigler/Developer/flutter/bin/cache/pkg/sky_engine",
++      "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "1.11"
+     },
+     {
+       "name": "source_span",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.2",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "stack_trace",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.6",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "stream_channel",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "string_scanner",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "term_glyph",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.1",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "test_api",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.6",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.2",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "typed_data",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.3",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "url_launcher",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "url_launcher_linux",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "url_launcher_macos",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "url_launcher_platform_interface",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "url_launcher_web",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1",
+       "packageUri": "lib/",
+       "languageVersion": "2.2"
+     },
+     {
+       "name": "url_launcher_windows",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3",
+       "packageUri": "lib/",
+       "languageVersion": "2.1"
+     },
+     {
+       "name": "vector_math",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.5",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3",
+       "packageUri": "lib/",
+-      "languageVersion": "2.12"
++      "languageVersion": "2.10"
+     },
+     {
+       "name": "win32",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/win32-1.7.4",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/win32-1.7.4",
+       "packageUri": "lib/",
+       "languageVersion": "2.7"
+     },
+     {
+       "name": "xdg_directories",
+-      "rootUri": "file:///Users/jonasschweigler/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2",
++      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2",
+       "packageUri": "lib/",
+       "languageVersion": "2.3"
+     },
+@@ -452,7 +452,7 @@
+       "languageVersion": "2.7"
+     }
+   ],
+-  "generated": "2020-12-28T08:14:17.849248Z",
++  "generated": "2020-12-28T08:19:26.101397Z",
+   "generator": "pub",
+-  "generatorVersion": "2.12.0-179.0.dev"
++  "generatorVersion": "2.10.4"
+ }
+Index: .idea/libraries/Flutter_Plugins.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Flutter Plugins\" type=\"FlutterPluginsLibraryType\">\r\n    <CLASSES>\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1\" />\r\n      <root url=\"file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES />\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Flutter_Plugins.xml	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ .idea/libraries/Flutter_Plugins.xml	(date 1609143603145)
+@@ -1,27 +1,29 @@
+ <component name="libraryTable">
+   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+     <CLASSES>
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1" />
+-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.4.0" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding-1.0.5" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+6" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9" />
++      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.24" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES />
+Index: pubspec.lock
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Generated by pub\r\n# See https://dart.dev/tools/pub/glossary#lockfile\r\npackages:\r\n  animated_text_kit:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: animated_text_kit\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"3.1.0\"\r\n  async:\r\n    dependency: transitive\r\n    description:\r\n      name: async\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.5.0-nullsafety.3\"\r\n  boolean_selector:\r\n    dependency: transitive\r\n    description:\r\n      name: boolean_selector\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.0-nullsafety.3\"\r\n  characters:\r\n    dependency: transitive\r\n    description:\r\n      name: characters\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.1.0-nullsafety.5\"\r\n  charcode:\r\n    dependency: transitive\r\n    description:\r\n      name: charcode\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.2.0-nullsafety.3\"\r\n  clock:\r\n    dependency: transitive\r\n    description:\r\n      name: clock\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.1.0-nullsafety.3\"\r\n  cloud_firestore:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: cloud_firestore\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.14.4\"\r\n  cloud_firestore_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: cloud_firestore_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.2.1\"\r\n  cloud_firestore_web:\r\n    dependency: transitive\r\n    description:\r\n      name: cloud_firestore_web\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.2.1+2\"\r\n  collection:\r\n    dependency: transitive\r\n    description:\r\n      name: collection\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.15.0-nullsafety.5\"\r\n  convert:\r\n    dependency: transitive\r\n    description:\r\n      name: convert\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.1\"\r\n  crypto:\r\n    dependency: transitive\r\n    description:\r\n      name: crypto\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.5\"\r\n  cupertino_icons:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: cupertino_icons\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.0\"\r\n  fake_async:\r\n    dependency: transitive\r\n    description:\r\n      name: fake_async\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.2.0-nullsafety.3\"\r\n  ffi:\r\n    dependency: transitive\r\n    description:\r\n      name: ffi\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.1.3\"\r\n  file:\r\n    dependency: transitive\r\n    description:\r\n      name: file\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"5.2.1\"\r\n  firebase_auth:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: firebase_auth\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.18.4+1\"\r\n  firebase_auth_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: firebase_auth_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.4\"\r\n  firebase_auth_web:\r\n    dependency: transitive\r\n    description:\r\n      name: firebase_auth_web\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.3.2+3\"\r\n  firebase_core:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: firebase_core\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.5.3\"\r\n  firebase_core_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: firebase_core_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.0\"\r\n  firebase_core_web:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: firebase_core_web\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.2.1+1\"\r\n  firebase_database:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: firebase_database\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"4.4.0\"\r\n  firebase_storage:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: firebase_storage\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"5.2.0\"\r\n  firebase_storage_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: firebase_storage_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.2\"\r\n  firebase_storage_web:\r\n    dependency: transitive\r\n    description:\r\n      name: firebase_storage_web\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.1.1+1\"\r\n  flutter:\r\n    dependency: \"direct main\"\r\n    description: flutter\r\n    source: sdk\r\n    version: \"0.0.0\"\r\n  flutter_plugin_android_lifecycle:\r\n    dependency: transitive\r\n    description:\r\n      name: flutter_plugin_android_lifecycle\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.11\"\r\n  flutter_spinkit:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: flutter_spinkit\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"4.1.2+1\"\r\n  flutter_test:\r\n    dependency: \"direct dev\"\r\n    description: flutter\r\n    source: sdk\r\n    version: \"0.0.0\"\r\n  flutter_web_plugins:\r\n    dependency: transitive\r\n    description: flutter\r\n    source: sdk\r\n    version: \"0.0.0\"\r\n  geocoding:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: geocoding\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.5\"\r\n  geocoding_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: geocoding_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.1+1\"\r\n  geolocator:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: geolocator\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"6.1.13\"\r\n  geolocator_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: geolocator_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.8\"\r\n  google_fonts:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: google_fonts\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.1.1\"\r\n  http:\r\n    dependency: transitive\r\n    description:\r\n      name: http\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.12.2\"\r\n  http_parser:\r\n    dependency: transitive\r\n    description:\r\n      name: http_parser\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"3.1.4\"\r\n  image_picker:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: image_picker\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.6.7+17\"\r\n  image_picker_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: image_picker_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.1.1\"\r\n  intl:\r\n    dependency: transitive\r\n    description:\r\n      name: intl\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.16.1\"\r\n  js:\r\n    dependency: transitive\r\n    description:\r\n      name: js\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.6.3-nullsafety.3\"\r\n  matcher:\r\n    dependency: transitive\r\n    description:\r\n      name: matcher\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.12.10-nullsafety.3\"\r\n  meta:\r\n    dependency: transitive\r\n    description:\r\n      name: meta\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.3.0-nullsafety.6\"\r\n  path:\r\n    dependency: transitive\r\n    description:\r\n      name: path\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.8.0-nullsafety.3\"\r\n  path_provider:\r\n    dependency: transitive\r\n    description:\r\n      name: path_provider\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.6.24\"\r\n  path_provider_linux:\r\n    dependency: transitive\r\n    description:\r\n      name: path_provider_linux\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.0.1+2\"\r\n  path_provider_macos:\r\n    dependency: transitive\r\n    description:\r\n      name: path_provider_macos\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.0.4+6\"\r\n  path_provider_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: path_provider_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.4\"\r\n  path_provider_windows:\r\n    dependency: transitive\r\n    description:\r\n      name: path_provider_windows\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.0.4+3\"\r\n  pedantic:\r\n    dependency: transitive\r\n    description:\r\n      name: pedantic\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.9.2\"\r\n  permission_handler:\r\n    dependency: \"direct main\"\r\n    description:\r\n      name: permission_handler\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"5.0.1+1\"\r\n  permission_handler_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: permission_handler_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.0.1\"\r\n  platform:\r\n    dependency: transitive\r\n    description:\r\n      name: platform\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.2.1\"\r\n  plugin_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: plugin_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.3\"\r\n  process:\r\n    dependency: transitive\r\n    description:\r\n      name: process\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"3.0.13\"\r\n  quiver:\r\n    dependency: transitive\r\n    description:\r\n      name: quiver\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.5\"\r\n  sky_engine:\r\n    dependency: transitive\r\n    description: flutter\r\n    source: sdk\r\n    version: \"0.0.99\"\r\n  source_span:\r\n    dependency: transitive\r\n    description:\r\n      name: source_span\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.8.0-nullsafety.4\"\r\n  stack_trace:\r\n    dependency: transitive\r\n    description:\r\n      name: stack_trace\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.10.0-nullsafety.6\"\r\n  stream_channel:\r\n    dependency: transitive\r\n    description:\r\n      name: stream_channel\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.0-nullsafety.3\"\r\n  string_scanner:\r\n    dependency: transitive\r\n    description:\r\n      name: string_scanner\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.1.0-nullsafety.3\"\r\n  term_glyph:\r\n    dependency: transitive\r\n    description:\r\n      name: term_glyph\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.2.0-nullsafety.3\"\r\n  test_api:\r\n    dependency: transitive\r\n    description:\r\n      name: test_api\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.2.19-nullsafety.6\"\r\n  typed_data:\r\n    dependency: transitive\r\n    description:\r\n      name: typed_data\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.3.0-nullsafety.5\"\r\n  url_launcher:\r\n    dependency: transitive\r\n    description:\r\n      name: url_launcher\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"5.7.10\"\r\n  url_launcher_linux:\r\n    dependency: transitive\r\n    description:\r\n      name: url_launcher_linux\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.0.1+4\"\r\n  url_launcher_macos:\r\n    dependency: transitive\r\n    description:\r\n      name: url_launcher_macos\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.0.1+9\"\r\n  url_launcher_platform_interface:\r\n    dependency: transitive\r\n    description:\r\n      name: url_launcher_platform_interface\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.0.9\"\r\n  url_launcher_web:\r\n    dependency: transitive\r\n    description:\r\n      name: url_launcher_web\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.1.5+1\"\r\n  url_launcher_windows:\r\n    dependency: transitive\r\n    description:\r\n      name: url_launcher_windows\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.0.1+3\"\r\n  vector_math:\r\n    dependency: transitive\r\n    description:\r\n      name: vector_math\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"2.1.0-nullsafety.5\"\r\n  win32:\r\n    dependency: transitive\r\n    description:\r\n      name: win32\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"1.7.4\"\r\n  xdg_directories:\r\n    dependency: transitive\r\n    description:\r\n      name: xdg_directories\r\n      url: \"https://pub.dartlang.org\"\r\n    source: hosted\r\n    version: \"0.1.2\"\r\nsdks:\r\n  dart: \">=2.12.0-0.0 <3.0.0\"\r\n  flutter: \">=1.22.0 <2.0.0\"\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pubspec.lock	(revision f7924b3ac540effe52073639345e9ce8463844b1)
++++ pubspec.lock	(date 1609143566025)
+@@ -14,35 +14,35 @@
+       name: async
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "2.5.0-nullsafety.3"
++    version: "2.5.0-nullsafety.1"
+   boolean_selector:
+     dependency: transitive
+     description:
+       name: boolean_selector
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "2.1.0-nullsafety.3"
++    version: "2.1.0-nullsafety.1"
+   characters:
+     dependency: transitive
+     description:
+       name: characters
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.1.0-nullsafety.5"
++    version: "1.1.0-nullsafety.3"
+   charcode:
+     dependency: transitive
+     description:
+       name: charcode
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.2.0-nullsafety.3"
++    version: "1.2.0-nullsafety.1"
+   clock:
+     dependency: transitive
+     description:
+       name: clock
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.1.0-nullsafety.3"
++    version: "1.1.0-nullsafety.1"
+   cloud_firestore:
+     dependency: "direct main"
+     description:
+@@ -70,7 +70,7 @@
+       name: collection
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.15.0-nullsafety.5"
++    version: "1.15.0-nullsafety.3"
+   convert:
+     dependency: transitive
+     description:
+@@ -98,7 +98,7 @@
+       name: fake_async
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.2.0-nullsafety.3"
++    version: "1.2.0-nullsafety.1"
+   ffi:
+     dependency: transitive
+     description:
+@@ -288,28 +288,28 @@
+       name: js
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "0.6.3-nullsafety.3"
++    version: "0.6.2"
+   matcher:
+     dependency: transitive
+     description:
+       name: matcher
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "0.12.10-nullsafety.3"
++    version: "0.12.10-nullsafety.1"
+   meta:
+     dependency: transitive
+     description:
+       name: meta
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.3.0-nullsafety.6"
++    version: "1.3.0-nullsafety.3"
+   path:
+     dependency: transitive
+     description:
+       name: path
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.8.0-nullsafety.3"
++    version: "1.8.0-nullsafety.1"
+   path_provider:
+     dependency: transitive
+     description:
+@@ -405,49 +405,49 @@
+       name: source_span
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.8.0-nullsafety.4"
++    version: "1.8.0-nullsafety.2"
+   stack_trace:
+     dependency: transitive
+     description:
+       name: stack_trace
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.10.0-nullsafety.6"
++    version: "1.10.0-nullsafety.1"
+   stream_channel:
+     dependency: transitive
+     description:
+       name: stream_channel
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "2.1.0-nullsafety.3"
++    version: "2.1.0-nullsafety.1"
+   string_scanner:
+     dependency: transitive
+     description:
+       name: string_scanner
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.1.0-nullsafety.3"
++    version: "1.1.0-nullsafety.1"
+   term_glyph:
+     dependency: transitive
+     description:
+       name: term_glyph
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.2.0-nullsafety.3"
++    version: "1.2.0-nullsafety.1"
+   test_api:
+     dependency: transitive
+     description:
+       name: test_api
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "0.2.19-nullsafety.6"
++    version: "0.2.19-nullsafety.2"
+   typed_data:
+     dependency: transitive
+     description:
+       name: typed_data
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "1.3.0-nullsafety.5"
++    version: "1.3.0-nullsafety.3"
+   url_launcher:
+     dependency: transitive
+     description:
+@@ -496,7 +496,7 @@
+       name: vector_math
+       url: "https://pub.dartlang.org"
+     source: hosted
+-    version: "2.1.0-nullsafety.5"
++    version: "2.1.0-nullsafety.3"
+   win32:
+     dependency: transitive
+     description:
+@@ -512,5 +512,5 @@
+     source: hosted
+     version: "0.1.2"
+ sdks:
+-  dart: ">=2.12.0-0.0 <3.0.0"
++  dart: ">=2.10.0 <2.11.0"
+   flutter: ">=1.22.0 <2.0.0"
+diff --git android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+diff --git ios/Runner/GeneratedPluginRegistrant.m ios/Runner/GeneratedPluginRegistrant.m

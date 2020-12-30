@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94cd8337-b468-4a46-8028-e1223fbed7a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ac619058]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mEwHyJXhhE2l4BNtT9jaUx3sB3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test-PR-Flutter" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94cd8337-b468-4a46-8028-e1223fbed7a2" name="Default Changelist" comment="" />
+      <created>1609071973515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609071973515</updated>
+    </task>
+    <task id="LOCAL-00001" summary="files updated">
+      <created>1609072303006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609072303006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="files updated">
+      <created>1609143296650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609143296650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="files updated">
+      <created>1609146945245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609146945245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="UI change for create _ad">
+      <created>1609162428344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609162428344</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="files updated" />
+    <MESSAGE value="UI change for create _ad" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI change for create _ad" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1095" height="535" key="AVDManager" timestamp="1609085259037">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="AVDManager/0.0.1280.720@0.0.1280.720" timestamp="1609085259037" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1609162424347">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1609162424347" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1609262664566">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609262664566" />
+    <state width="1236" height="341" key="GridCell.Tab.0.bottom" timestamp="1609276429459">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="341" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1609276429459" />
+    <state width="1013" height="241" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1609145468310" />
+    <state width="1236" height="341" key="GridCell.Tab.0.center" timestamp="1609276429459">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="341" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1609276429459" />
+    <state width="1013" height="241" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1609145468309" />
+    <state width="1236" height="341" key="GridCell.Tab.0.left" timestamp="1609276429459">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="341" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1609276429459" />
+    <state width="1013" height="241" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1609145468307" />
+    <state width="1236" height="341" key="GridCell.Tab.0.right" timestamp="1609276429459">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="341" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1609276429459" />
+    <state width="1013" height="241" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1609145468310" />
+    <state x="142" y="6" key="SettingsEditor" timestamp="1609079190181">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1609079190181" />
+    <state x="171" y="143" key="Vcs.Push.Dialog.v2" timestamp="1609146950240">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="171" y="143" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1609146950240" />
+    <state x="171" y="143" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1609072341919" />
+    <state x="119" y="133" width="855" height="601" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609147306934">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="119" y="133" width="855" height="601" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.804@0.25.1440.804" timestamp="1609147306934" />
+    <state x="301" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609222285538">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="301" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1609222285538" />
+    <state x="339" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.804@0.25.1440.804" timestamp="1609143365590" />
+    <state x="339" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.807@0.25.1440.807" timestamp="1609072816238" />
+  </component>
+</project>
