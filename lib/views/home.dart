@@ -16,9 +16,7 @@ class _HomePageState extends State<HomePage> {
   int _screenNumber = 0;
   final List<Widget> _children = [
     HomePagePage(),
-    SearchPage(),
     BonusPage(),
-    FavouritePage(),
     ProfilePage(),
   ];
 
@@ -27,29 +25,40 @@ class _HomePageState extends State<HomePage> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: _children[_screenNumber],
-        bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.transparent,
-          buttonBackgroundColor: Colors.teal.shade300,
-          color: Colors.teal,
-          animationDuration: Duration(milliseconds: 390),
-          height: 55,
-          items: <Widget>[
-            Icon(
-              Icons.home,
-              size: 30,
+        body: Stack(
+          children: [
+            _children[_screenNumber],
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: CurvedNavigationBar(
+                backgroundColor: Colors.transparent,
+                buttonBackgroundColor: Colors.white.withOpacity(0),
+                color: Colors.teal,
+                animationDuration: Duration(milliseconds: 390),
+                height: 55,
+                items: <Widget>[
+                  Icon(
+                    Icons.home,
+                    size: 30,
+                  ),
+                  Icon(
+                    CupertinoIcons.flame_fill,
+                    size: 30,
+                  ),
+                  Icon(
+                    Icons.person,
+                    size: 30,
+                  )
+                ],
+                index: _screenNumber,
+                onTap: (i) => setState(
+                  () {
+                    _screenNumber = i;
+                  },
+                ),
+              ),
             ),
-            Icon(CupertinoIcons.flame_fill, size: 30),
-            Icon(Icons.star, size: 30),
-            Icon(
-              Icons.person,
-              size: 30,
-            )
           ],
-          index: _screenNumber,
-          onTap: (i) => setState(() {
-            _screenNumber = i;
-          }),
         ),
       ),
     );
