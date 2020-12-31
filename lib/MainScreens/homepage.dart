@@ -6,6 +6,7 @@ import 'package:shareweb/utilities/data/database.dart';
 import 'package:shareweb/utilities/models/restaurant.dart';
 import 'package:shareweb/views/add_provider.dart';
 import 'package:shareweb/views/cart_screen.dart';
+import 'package:shareweb/views/drawer.dart';
 import 'package:shareweb/views/home.dart';
 import 'package:shareweb/views/professional_requirements.dart';
 import 'package:shareweb/views/restaurant_screen.dart';
@@ -32,7 +33,7 @@ class _HomePagePageState extends State<HomePagePage> {
   double longitude;
   double latitude;
 
-  void getPosition() {
+  getPosition() {
     longitude = _adress.longitude;
     latitude = _adress.latitude;
     print(longitude.toString());
@@ -173,94 +174,8 @@ class _HomePagePageState extends State<HomePagePage> {
         ),
         preferredSize: Size.fromHeight(65),
       ),
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.teal[400],
-              ),
-              child: Text(
-                'Drawer Header',
-                style: GoogleFonts.shadowsIntoLight(
-                  color: Colors.white,
-                  fontSize: 24,
-                ),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(
-                left: 5,
-                top: 8,
-                bottom: 8,
-                right: 100,
-              ),
-              child: FlatButton(
-                child: Text(
-                  'Orders (${currentUser.cart.length})',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                  ),
-                ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => CartScreen(),
-                    ),
-                  );
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(
-                left: 5,
-                top: 8,
-                bottom: 8,
-                right: 100,
-              ),
-              child: FlatButton(
-                  child: Text(
-                    'update Location',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                    ),
-                  ),
-                  onPressed: () {
-                    setState(() {
-                      try {
-                        getPosition();
-                      } catch (e) {
-                        print(e);
-                      }
-                    });
-                  }),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(
-                left: 5,
-                top: 8,
-                bottom: 8,
-                right: 100,
-              ),
-              child: FlatButton(
-                child: Text(
-                  'Become Professional',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                  ),
-                ),
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Requirements()));
-                },
-              ),
-            ),
-          ],
-        ),
+      drawer: DrawerWidget(
+        position: getPosition(),
       ),
       body: Container(
         decoration: BoxDecoration(
