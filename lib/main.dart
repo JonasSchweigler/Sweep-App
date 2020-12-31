@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     return MaterialApp(
-      title: 'Shareweb',
+      title: 'Sweep',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.teal,
