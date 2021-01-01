@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:shareweb/MainScreens/favourites.dart';
 import 'package:shareweb/MainScreens/homepage.dart';
-import 'package:shareweb/MainScreens/screen.dart';
-import 'package:shareweb/MainScreens/profile.dart';
+import 'package:shareweb/MainScreens/profilescreen.dart';
 import 'package:shareweb/MainScreens/bonus.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
@@ -17,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _children = [
     HomePagePage(),
     BonusPage(),
-    ProfilePage(),
+    ProfileScreen(),
   ];
 
   @override
