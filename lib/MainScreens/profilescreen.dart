@@ -64,20 +64,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
             style: kCaptionTextStyle,
           ),
           SizedBox(height: kSpacingUnit.w * 2),
-          Container(
-            height: kSpacingUnit.w * 4,
-            width: kSpacingUnit.w * 20,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(kSpacingUnit.w * 3),
-              color: Theme.of(context).accentColor,
-            ),
-            child: Center(
-              child: Text(
-                'Upgrade to PRO',
-                style: kButtonTextStyle,
-              ),
-            ),
-          ),
+          // Container(
+          //   height: kSpacingUnit.w * 4,
+          //   width: kSpacingUnit.w * 20,
+          //   decoration: BoxDecoration(
+          //     borderRadius: BorderRadius.circular(kSpacingUnit.w * 3),
+          //     color: Theme.of(context).accentColor,
+          //   ),
+          //   child: Center(
+          //     child: Text(
+          //       'Upgrade to PRO',
+          //       style: kButtonTextStyle,
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );
@@ -125,54 +125,55 @@ class _ProfileScreenState extends State<ProfileScreen> {
     return ThemeSwitchingArea(
       child: Builder(
         builder: (context) {
-          return Scaffold(
-            body: Column(
-              children: <Widget>[
-                SizedBox(height: kSpacingUnit.w * 5),
-                header,
-                Container(
-                  width: double.infinity,
-                  height: 327,
-                  child: ListView(
-                    children: <Widget>[
-                      ProfileListItem(
-                        icon: LineAwesomeIcons.user_shield,
-                        text: 'Privacy',
-                      ),
-                      ProfileListItem(
-                        icon: LineAwesomeIcons.history,
-                        text: 'Purchase History',
-                      ),
-                      ProfileListItem(
-                        icon: LineAwesomeIcons.question_circle,
-                        text: 'Help & Support',
-                      ),
-                      ProfileListItem(
-                        icon: LineAwesomeIcons.cog,
-                        text: 'Settings',
-                      ),
-                      ProfileListItem(
-                        icon: LineAwesomeIcons.user_plus,
-                        text: 'Invite a Friend',
-                      ),
-                      ProfileListItem(
-                        icon: LineAwesomeIcons.alternate_sign_out,
-                        text: 'Logout',
-                        hasNavigation: true,
-                        onPressed: () async {
-                          await FirebaseAuth.instance.signOut();
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => WelcomePage(),
-                            ),
-                          );
-                        },
-                      ),
-                    ],
-                  ),
-                )
-              ],
+          return SafeArea(
+            child: Scaffold(
+              body: Container(
+                // height: 600,
+                child: ListView(
+                  children: [
+                    Column(
+                      children: <Widget>[
+                        SizedBox(height: kSpacingUnit.w * 5),
+                        header,
+                        ProfileListItem(
+                          icon: LineAwesomeIcons.user_shield,
+                          text: 'Privacy',
+                        ),
+                        ProfileListItem(
+                          icon: LineAwesomeIcons.history,
+                          text: 'Purchase History',
+                        ),
+                        ProfileListItem(
+                          icon: LineAwesomeIcons.question_circle,
+                          text: 'Help & Support',
+                        ),
+                        ProfileListItem(
+                          icon: LineAwesomeIcons.cog,
+                          text: 'Settings',
+                        ),
+                        ProfileListItem(
+                          icon: LineAwesomeIcons.user_plus,
+                          text: 'Invite a Friend',
+                        ),
+                        ProfileListItem(
+                          icon: LineAwesomeIcons.alternate_sign_out,
+                          text: 'Logout',
+                          hasNavigation: true,
+                          onPressed: () async {
+                            await FirebaseAuth.instance.signOut();
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => WelcomePage(),
+                              ),
+                            );
+                          },
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ),
           );
         },

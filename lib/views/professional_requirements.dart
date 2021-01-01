@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shareweb/views/add_provider.dart';
 
 class Requirements extends StatefulWidget {
   @override
@@ -8,9 +9,33 @@ class Requirements extends StatefulWidget {
 class _RequirementsState extends State<Requirements> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(),
+    return SafeArea(
+      child: Scaffold(
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 80,
+                height: 20,
+                child: FlatButton(
+                  child: Text('next'),
+                  color: Colors.red,
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return CreateAd();
+                        },
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
